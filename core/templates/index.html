@@ -13,8 +13,10 @@
                 </ul>
             </nav>
         </header>
+        {% block content %}
         <div class="content">
-            <img class="active page-image" src="homepage-page-image.jpeg" alt="There is a yellow flower to left that is fully in foucs. in the upper right third there is a cstle in the background.">
+            <img class="active page-image" src="{% static 'homepage-page-image.jpeg'  %
+            }" alt-text="There is a yellow flower to left that is fully in foucs. in the upper right third there is a cstle in the background.">
             <div class="introduction">
                 <h2>Hi, I am Abby Demarest!</h2>
                 <p>I am new to developing and have a background in art, program coordination and human services.
@@ -27,6 +29,7 @@
                 </p>
             </div>
         </div>
+        {% endblock %}
         <footer>
                 <a class="email" href="mailto:abbyjoydemarest@gmail.com">abbyjoydemarest@gmail.com</a>
     </footer>
