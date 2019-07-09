@@ -5,7 +5,6 @@
     display:flex;
     flex-direction:row;
     justify-content: space-evenly;
-    border-bottom: .25rem solid rgb(231, 184, 61);
     margin-bottom: 1rem;
     background-color: rgb(231, 184, 61);
     color: black;
@@ -13,9 +12,11 @@
 }
 .page{
     color:black;
-    padding: 1rem;
+    padding: .5rem;
     font-display: none;
     margin:0;
+    width: 50%;
+    text-align: center;
 }
 .page:hover{
     background-color: black;
@@ -64,6 +65,24 @@ a{
 #logo-tech{
     width: 60rem;
 }
-footer{
-    border-top: .25rem solid rgb(231, 184, 61);
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    background-color: rgb(231, 184, 61);
+    padding: 0rem;
+}
+.email{
+    color: black;
+    padding: .5rem;
+    width: 100%;
+    text-align: center;
+}
+.email:hover{
+    background-color: black;
+    color:  rgb(231, 184, 61);
+}
+#lastproject{
+    border-bottom:0rem;
 }
