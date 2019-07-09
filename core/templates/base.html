@@ -12,8 +12,8 @@
     <header class="header">
         <h1 id="site-header">Abby Demarest</h1>
         <div class="nav-bar">
-            <p><a href="{% url 'home' %}">Home</a></p>
-            <p><a href="{% url 'projects' %}">Projects</a></p>
+            <a class="page" id="home" href="{% url 'home' %}">Home</a>
+            <a class="page" id="projects" href="{% url 'projects' %}">Projects</a>
         </div>
     </header>
     {% block content %}
